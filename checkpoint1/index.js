@@ -14,9 +14,8 @@ function microondas (prato, tempo) {
       (prato == "brigadeiro" && tempo >= 8 && tempo <= 16)
     )   {if (prato == 'pipoca' || prato == 'carne')
         {return`A ${prato} está pronta, bom apetite!`}
-        else (prato == 'macarrao' || prato == 'feijao' ||prato == 'brigadeiro');{
-        return`O ${prato} está pronto, bom apetite!` 
-        }
+        else (prato == 'macarrao' || prato == 'feijao' ||prato == 'brigadeiro');
+        {return`O ${prato} está pronto, bom apetite!` }
     }
 
     else if (
